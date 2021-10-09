@@ -21,5 +21,6 @@ public class BasicSyntax {
                                 myStudent2.onProbation = true;
         System.out.println(myStudent.firstName);
         System.out.println(myStudent.age);
+        System.out.println(myStudent.lastName);
     }
 }

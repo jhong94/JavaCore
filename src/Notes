@@ -1,0 +1,17 @@
+Basic Syntax
+Class - a template for a real world environment i.e. piece of software
+Object - fits into a Class to support it
+    - has states and behaviors
+    - String = text
+    - double = decimal value
+    - int = number
+Method - similar to behavior but methods manipulate data and gives output from that data (starts with lowercase letter, inner words, first letter is capitalized
+public static void main(string args[]); - Java program starts from this method and is a mandatory part of every Java program
+Constructors - has to have the same name as the Class
+ex. public class Puppy {
+        public Puppy () {
+        }
+        public Puppy (String name) {
+        // This constructor has one parameter, the name.
+        }
+     }
