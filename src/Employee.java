@@ -1,4 +1,4 @@
-import java.io.*;
+/*import java.io.*;
 public class Employee {
 
     // this instance variable is visible for any child class.
@@ -27,5 +27,19 @@ public class Employee {
         Employee empOne = new Employee("Ransika");
         empOne.setSalary(1000);
         empOne.printEmp();
+    }
+}*/
+
+import java.io.*;
+public class Employee {
+    //salary variable is a private static variable
+    private static double salary;
+
+    //DEPARTMENT is a constant
+    public static final String DEPARTMENT = "Development";
+
+    public static void main(String[] args){
+        salary = 1000;
+        System.out.println(DEPARTMENT + "average salary:" + salary);
     }
 }
