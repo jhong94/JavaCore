@@ -26,11 +26,5 @@ public class BasicDataTypes {
             System.out.println(octVal);
             System.out.println(hexVal);
             System.out.println(binVal);
-
-
-
-
-
-
     }
 }
