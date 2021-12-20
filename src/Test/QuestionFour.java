@@ -22,16 +22,16 @@ public class QuestionFour {
         Scanner input = new Scanner(System.in);
         Scanner userDiff = new Scanner(System.in);
         try {
-            System.out.println("What is your weight?");
+            System.out.println("Enter a weight: ");
             double weight = input.nextDouble();
 
-            System.out.println("Do you measure in KG or LB?");
+            System.out.println("Is the weight in KG or LB?");
             String kilo = userDiff.nextLine();
 
-            if (kilo.equals("KG"))
+            if (kilo.equalsIgnoreCase("KG"))
             {System.out.println("This is your weight in LB: " + weight * 2.21 + ".");}
-            else if(kilo.equals("LB"))
-            {System.out.println();}
+            else if(kilo.equalsIgnoreCase("LB"))
+            {System.out.println("This is your weight in KG: " + weight / 2.21 + ".");}
         }
         catch(Exception e){
             System.out.println(e);
